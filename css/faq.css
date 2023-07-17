@@ -1,0 +1,42 @@
+body{
+ 
+ 
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+   
+   background-image: url(register.jfif);
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center;
+   background-attachment: fixed;
+    
+   }
+   nav{
+    
+       grid-column-start: 1;
+       grid-column-end: 3;
+       margin-top: 20px;
+       margin-left: 70px;
+     
+    
+    }
+    a{
+       text-decoration: none;
+       color:rgb(5, 0, 8);
+       padding-left: 80px;
+       font-size: large;
+       
+
+   }
+   div{
+     grid-column-start: 1;
+     grid-column-end: 4;
+  margin: 100px;
+  margin-left: 200px;
+  margin-right: 200px;
+  padding: 90px;
+  height: max-content;
+  border: solid 2px black;
+  border-radius: 20px;
+  background-color: white;
+   }

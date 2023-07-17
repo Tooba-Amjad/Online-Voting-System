@@ -1,0 +1,93 @@
+body{
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+  
+   background-image: url(register.jfif);
+ background-size: cover;
+ background-repeat: no-repeat;
+ background-position: center;
+ background-attachment: fixed;
+ }
+ nav{
+  
+    grid-column-start: 1;
+    grid-column-end: 3;
+    margin-top: 20px;
+    margin-left: 70px;
+  
+ 
+ }
+ a{
+     text-decoration: none;
+     color:rgb(9, 5, 12);
+     padding-left: 80px;
+     font-size: large;
+     
+ }
+ form{ 
+  margin-top: 30px;
+     padding: 30px;
+ color: rgb(3, 3, 3);
+
+ /*background-color: rgba(249, 249, 250, 0.884);*/
+ background-color:white;
+ box-shadow: 2px black ;
+ border-radius: 15px;
+ box-shadow: 2px 2px 5px 5px rgb(212, 125, 125) ;
+ grid-column-start: 2;
+ grid-column-end: 2;
+float: left;
+ 
+ 
+ }
+/* form{
+     display: grid;
+     grid-template-columns: 1fr 1fr;
+     grid-template-rows: 1fr 1fr;
+ }*/
+ 
+ input{
+     
+       margin: 20px;
+       border: solid rgb(14, 12, 12) 2px;
+       padding-top: 10px;
+       border-radius: 5px;
+     height: auto;
+  width: auto;
+  
+ 
+ }
+/* 
+ #address{
+    
+    margin-left: 70px;
+    color: aliceblue;
+    height: 40px;
+    } */
+ input[type=email]{
+    
+    margin-left: 35px;
+    color: rgb(10, 14, 17);
+   
+
+ }
+ input[type=text]{
+    padding: 50px;
+   margin-left: 35px;
+   color: rgb(1, 8, 15);
+  
+
+}
+
+input[type=submit]{
+margin-left: 190px;
+padding-left: 20px;
+padding-right: 20px;
+padding-bottom: 5px;}
+
+img{
+      float: right;
+      grid-column-start: 2;
+      grid-template-rows: 1;
+  
+}
